@@ -1,0 +1,9 @@
+name = "image"
+type = "static"
+account_id = "Aivenyi5241@gmail.com"
+zone_id = "your-cloudflare-zone-id"
+workers_dev = false
+route = "your-domain.com/*"
+
+[build]
+command = "npm run build"
